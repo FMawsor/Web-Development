@@ -1,0 +1,169 @@
+{
+
+  margin: 10px;
+
+  padding: 0px;
+
+  box-sizing: border-box;
+
+}
+
+.body-text {
+
+  display: flex;
+
+  font-family: "Montserrat", sans-serif;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-top: 250px;
+
+}
+
+nav {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  min-height: 8vh;
+
+  background-color: teal;
+
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.heading {
+
+  color: white;
+
+  text-transform: uppercase;
+
+  letter-spacing: 5px;
+
+  font-size: 20px;
+
+}
+
+.nav-links {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  width: 40%;
+
+}
+
+.nav-links li {
+
+  list-style: none;
+
+}
+
+.nav-links a {
+
+  color: white;
+
+  text-decoration: none;
+
+  letter-spacing: 4px;
+
+  font-weight: bold;
+
+  font-size: 14px;
+
+  padding: 14px 12px;
+
+}
+
+.nav-links a:hover:not(.active) {
+
+  background-color: lightseagreen;
+
+}
+
+.nav-links li a.active {
+
+  background-color:green;
+
+}
+.won a
+{
+ text-decoration:none;
+ letter-spacing: 2px;
+ font-weight: bold;
+ font-size: 24px;
+ padding:14px 16px;
+}
+
+.won a:hover{
+  color:blue;
+}
+
+.body-peo
+{
+    font-size:19px;
+    padding:12px 10px;
+    word-spacing:2px;
+}
+ul li:hover{
+  color:blue;
+}
+
+
+h2{
+  font-size:35px;
+  width:35%;
+  text-shadow:2px 2px 2px red;
+  background-color: brown;
+}
+.wonders h2{
+  margin: 1rem auto;
+  animation: wonders 1s ease infinite;
+}
+@keyframes wonders {
+  0%,
+  100% {
+      text-shadow: 10px purple;
+      color:coral;
+  }
+  50% {
+      text-shadow: 2px red;
+      color: lightskyblue;
+  }
+}   
+
+p{
+font-size:20px;
+padding:18px 15px;
+font-style:oblique;
+word-spacing: 5px;
+line-height: 1.5; 
+}
+img{
+  padding:7px 4px;
+}
+img:hover{
+  transform:scaleX(-1);
+}
+
+.footer {  
+  position: fixed;  
+  left: 10px;  
+  bottom: 5px;  
+  right: 10px;   
+  width: 100%;  
+  background-color:cornflowerblue;  
+  color: white;  
+  text-align: center;  
+ word-spacing: 5px;
+  }  
+h1{
+  padding:12px;
+}

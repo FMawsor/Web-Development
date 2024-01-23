@@ -1,0 +1,38 @@
+.contain
+{
+text-shadow:2px 2px 3px red;
+text-align:center;
+font-size:30px;
+background-color:brown;
+
+}
+.wonder h2{
+    margin: 1rem auto;
+    animation: wonder 1s ease infinite;
+}
+@keyframes wonder {
+    0%,
+    100% {
+        text-shadow: 10px #ef00e3a8;
+        color: #f5efcb;
+    }
+    50% {
+        text-shadow: 2px #800e0b;
+        color: #eda0d3;
+    }
+}   
+
+input[type=text]:focus,textarea[id=subject]:focus{
+    background-color:lightseagreen;
+    outline: none;
+ }
+
+.form1
+{
+  
+    text-decoration:dotted;
+    font-size:16px;
+    width:50%;
+    padding:50px 50px;
+    background-color:lightslategrey;
+}
